@@ -7,6 +7,11 @@ import { getLocales } from '@/locales/dictionary'
 import { defaultLocale } from '@/locales/config'
 
 export default async function middleware(request: NextRequest, event: NextFetchEvent) {
+  // Skip middleware entirely for API routes
+  if (request.nextUrl.pathname.startsWith('/api/')) {
+    return NextResponse.next()
+  }
+
   const headers = { 'accept-language': request.headers.get('accept-language') ?? '' }
   const languages = new Negotiator({ headers }).languages()
   const locales = getLocales()

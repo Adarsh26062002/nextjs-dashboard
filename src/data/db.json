@@ -1,0 +1,369 @@
+{
+  "en_pokemons": [
+    {
+      "id": 1,
+      "identifier": "bulbasaur",
+      "pokemondb_identifier": "bulbasaur",
+      "name": "Bulbasaur",
+      "types": [
+        { "id": 12, "identifier": "grass", "name": "Grass" },
+        { "id": 4, "identifier": "poison", "name": "Poison" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 7, "identifier": "plant", "name": "Grass" }
+      ],
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 45,
+      "total": 318
+    },
+    {
+      "id": 2,
+      "identifier": "ivysaur",
+      "pokemondb_identifier": "ivysaur",
+      "name": "Ivysaur",
+      "types": [
+        { "id": 12, "identifier": "grass", "name": "Grass" },
+        { "id": 4, "identifier": "poison", "name": "Poison" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 7, "identifier": "plant", "name": "Grass" }
+      ],
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 60,
+      "total": 405
+    },
+    {
+      "id": 3,
+      "identifier": "venusaur",
+      "pokemondb_identifier": "venusaur",
+      "name": "Venusaur",
+      "types": [
+        { "id": 12, "identifier": "grass", "name": "Grass" },
+        { "id": 4, "identifier": "poison", "name": "Poison" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 7, "identifier": "plant", "name": "Grass" }
+      ],
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 80,
+      "total": 525
+    },
+    {
+      "id": 4,
+      "identifier": "charmander",
+      "pokemondb_identifier": "charmander",
+      "name": "Charmander",
+      "types": [
+        { "id": 10, "identifier": "fire", "name": "Fire" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 8, "identifier": "dragon", "name": "Dragon" }
+      ],
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "special_attack": 60,
+      "special_defense": 50,
+      "speed": 65,
+      "total": 309
+    },
+    {
+      "id": 5,
+      "identifier": "charmeleon",
+      "pokemondb_identifier": "charmeleon",
+      "name": "Charmeleon",
+      "types": [
+        { "id": 10, "identifier": "fire", "name": "Fire" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 8, "identifier": "dragon", "name": "Dragon" }
+      ],
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "special_attack": 80,
+      "special_defense": 65,
+      "speed": 80,
+      "total": 405
+    },
+    {
+      "id": 6,
+      "identifier": "charizard",
+      "pokemondb_identifier": "charizard",
+      "name": "Charizard",
+      "types": [
+        { "id": 10, "identifier": "fire", "name": "Fire" },
+        { "id": 3, "identifier": "flying", "name": "Flying" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 8, "identifier": "dragon", "name": "Dragon" }
+      ],
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special_attack": 109,
+      "special_defense": 85,
+      "speed": 100,
+      "total": 534
+    },
+    {
+      "id": 7,
+      "identifier": "squirtle",
+      "pokemondb_identifier": "squirtle",
+      "name": "Squirtle",
+      "types": [
+        { "id": 11, "identifier": "water", "name": "Water" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 1, "identifier": "water1", "name": "Water 1" }
+      ],
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "special_attack": 50,
+      "special_defense": 64,
+      "speed": 43,
+      "total": 314
+    },
+    {
+      "id": 8,
+      "identifier": "wartortle",
+      "pokemondb_identifier": "wartortle",
+      "name": "Wartortle",
+      "types": [
+        { "id": 11, "identifier": "water", "name": "Water" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 1, "identifier": "water1", "name": "Water 1" }
+      ],
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "special_attack": 65,
+      "special_defense": 80,
+      "speed": 58,
+      "total": 405
+    },
+    {
+      "id": 9,
+      "identifier": "blastoise",
+      "pokemondb_identifier": "blastoise",
+      "name": "Blastoise",
+      "types": [
+        { "id": 11, "identifier": "water", "name": "Water" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "Monster" },
+        { "id": 1, "identifier": "water1", "name": "Water 1" }
+      ],
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special_attack": 85,
+      "special_defense": 105,
+      "speed": 78,
+      "total": 530
+    },
+    {
+      "id": 25,
+      "identifier": "pikachu",
+      "pokemondb_identifier": "pikachu",
+      "name": "Pikachu",
+      "types": [
+        { "id": 13, "identifier": "electric", "name": "Electric" }
+      ],
+      "egg_groups": [
+        { "id": 11, "identifier": "field", "name": "Field" },
+        { "id": 6, "identifier": "fairy", "name": "Fairy" }
+      ],
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90,
+      "total": 320
+    }
+  ],
+  "ja_pokemons": [
+    {
+      "id": 1,
+      "identifier": "bulbasaur",
+      "pokemondb_identifier": "bulbasaur",
+      "name": "フシギダネ",
+      "types": [
+        { "id": 12, "identifier": "grass", "name": "くさ" },
+        { "id": 4, "identifier": "poison", "name": "どく" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "怪獣" },
+        { "id": 7, "identifier": "plant", "name": "植物" }
+      ],
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 45,
+      "total": 318
+    },
+    {
+      "id": 25,
+      "identifier": "pikachu",
+      "pokemondb_identifier": "pikachu",
+      "name": "ピカチュウ",
+      "types": [
+        { "id": 13, "identifier": "electric", "name": "でんき" }
+      ],
+      "egg_groups": [
+        { "id": 11, "identifier": "field", "name": "陸上" },
+        { "id": 6, "identifier": "fairy", "name": "妖精" }
+      ],
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90,
+      "total": 320
+    }
+  ],
+  "zh_pokemons": [
+    {
+      "id": 1,
+      "identifier": "bulbasaur",
+      "pokemondb_identifier": "bulbasaur",
+      "name": "妙蛙种子",
+      "types": [
+        { "id": 12, "identifier": "grass", "name": "草" },
+        { "id": 4, "identifier": "poison", "name": "毒" }
+      ],
+      "egg_groups": [
+        { "id": 4, "identifier": "monster", "name": "怪兽" },
+        { "id": 7, "identifier": "plant", "name": "植物" }
+      ],
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 45,
+      "total": 318
+    },
+    {
+      "id": 25,
+      "identifier": "pikachu",
+      "pokemondb_identifier": "pikachu",
+      "name": "皮卡丘",
+      "types": [
+        { "id": 13, "identifier": "electric", "name": "电" }
+      ],
+      "egg_groups": [
+        { "id": 11, "identifier": "field", "name": "陆上" },
+        { "id": 6, "identifier": "fairy", "name": "妖精" }
+      ],
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90,
+      "total": 320
+    }
+  ],
+  "en_types": [
+    { "id": 1, "identifier": "normal", "name": "Normal" },
+    { "id": 2, "identifier": "fighting", "name": "Fighting" },
+    { "id": 3, "identifier": "flying", "name": "Flying" },
+    { "id": 4, "identifier": "poison", "name": "Poison" },
+    { "id": 5, "identifier": "ground", "name": "Ground" },
+    { "id": 6, "identifier": "rock", "name": "Rock" },
+    { "id": 7, "identifier": "bug", "name": "Bug" },
+    { "id": 8, "identifier": "ghost", "name": "Ghost" },
+    { "id": 9, "identifier": "steel", "name": "Steel" },
+    { "id": 10, "identifier": "fire", "name": "Fire" },
+    { "id": 11, "identifier": "water", "name": "Water" },
+    { "id": 12, "identifier": "grass", "name": "Grass" },
+    { "id": 13, "identifier": "electric", "name": "Electric" },
+    { "id": 14, "identifier": "psychic", "name": "Psychic" },
+    { "id": 15, "identifier": "ice", "name": "Ice" },
+    { "id": 16, "identifier": "dragon", "name": "Dragon" },
+    { "id": 17, "identifier": "dark", "name": "Dark" },
+    { "id": 18, "identifier": "fairy", "name": "Fairy" }
+  ],
+  "ja_types": [
+    { "id": 1, "identifier": "normal", "name": "ノーマル" },
+    { "id": 2, "identifier": "fighting", "name": "かくとう" },
+    { "id": 3, "identifier": "flying", "name": "ひこう" },
+    { "id": 4, "identifier": "poison", "name": "どく" },
+    { "id": 5, "identifier": "ground", "name": "じめん" },
+    { "id": 10, "identifier": "fire", "name": "ほのお" },
+    { "id": 11, "identifier": "water", "name": "みず" },
+    { "id": 12, "identifier": "grass", "name": "くさ" },
+    { "id": 13, "identifier": "electric", "name": "でんき" }
+  ],
+  "zh_types": [
+    { "id": 1, "identifier": "normal", "name": "一般" },
+    { "id": 2, "identifier": "fighting", "name": "格斗" },
+    { "id": 3, "identifier": "flying", "name": "飞行" },
+    { "id": 4, "identifier": "poison", "name": "毒" },
+    { "id": 10, "identifier": "fire", "name": "火" },
+    { "id": 11, "identifier": "water", "name": "水" },
+    { "id": 12, "identifier": "grass", "name": "草" },
+    { "id": 13, "identifier": "electric", "name": "电" }
+  ],
+  "en_egg_groups": [
+    { "id": 1, "identifier": "water1", "name": "Water 1" },
+    { "id": 2, "identifier": "water2", "name": "Water 2" },
+    { "id": 3, "identifier": "water3", "name": "Water 3" },
+    { "id": 4, "identifier": "monster", "name": "Monster" },
+    { "id": 5, "identifier": "bug", "name": "Bug" },
+    { "id": 6, "identifier": "fairy", "name": "Fairy" },
+    { "id": 7, "identifier": "plant", "name": "Grass" },
+    { "id": 8, "identifier": "dragon", "name": "Dragon" },
+    { "id": 9, "identifier": "flying", "name": "Flying" },
+    { "id": 10, "identifier": "amorphous", "name": "Amorphous" },
+    { "id": 11, "identifier": "field", "name": "Field" },
+    { "id": 12, "identifier": "mineral", "name": "Mineral" },
+    { "id": 13, "identifier": "human-like", "name": "Human-Like" },
+    { "id": 14, "identifier": "ditto", "name": "Ditto" },
+    { "id": 15, "identifier": "no-eggs", "name": "No Eggs Discovered" }
+  ],
+  "ja_egg_groups": [
+    { "id": 1, "identifier": "water1", "name": "水中1" },
+    { "id": 4, "identifier": "monster", "name": "怪獣" },
+    { "id": 6, "identifier": "fairy", "name": "妖精" },
+    { "id": 7, "identifier": "plant", "name": "植物" },
+    { "id": 8, "identifier": "dragon", "name": "ドラゴン" },
+    { "id": 11, "identifier": "field", "name": "陸上" }
+  ],
+  "zh_egg_groups": [
+    { "id": 1, "identifier": "water1", "name": "水中1" },
+    { "id": 4, "identifier": "monster", "name": "怪兽" },
+    { "id": 6, "identifier": "fairy", "name": "妖精" },
+    { "id": 7, "identifier": "plant", "name": "植物" },
+    { "id": 8, "identifier": "dragon", "name": "龙" },
+    { "id": 11, "identifier": "field", "name": "陆上" }
+  ]
+}
+

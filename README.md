@@ -16,7 +16,7 @@ https://nextjs-dashboard-olive.vercel.app
 
 | Light                                                                                                                                                       | Dark                                                                                                                                                       |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<img alt="Dashboard" width="400" src="https://raw.githubusercontent.com/kitloong/screenshot/main/light.png" />](https://nextjs-dashboard-olive.vercel.app) | [<img alt="Dashboard" width="400" src="https://raw.githubusercontent.com/kitloong/screenshot/main/dark.png" />](https://nextjs-dashboard-olive.vercel.app) |
+| Dashboard Light Mode | Dashboard Dark Mode |
 
 | Mobile (collapsed)                                                                                                                                                                           | Mobile (expand)                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ https://nextjs-dashboard-olive.vercel.app/pokemons
 
 | English                                                                                                                                                           | 日本語                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<img alt="Sample page" width="400" src="https://raw.githubusercontent.com/kitloong/screenshot/main/en.png">](https://nextjs-dashboard-olive.vercel.app/pokemons) | [<img alt="Sample page" width="400" src="https://raw.githubusercontent.com/kitloong/screenshot/main/ja.png">](https://nextjs-dashboard-olive.vercel.app/pokemons) |
+| Sample page - English | Sample page - 日本語 |
 
 
 ### Login
