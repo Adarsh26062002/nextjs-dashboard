@@ -75,3 +75,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Reference
 
 1. https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components/
+# nextjs-dashboard
