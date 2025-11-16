@@ -1,12 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server'
 import db from '@/data/db.json'
 
+interface Pokemon {
+  id: number;
+  [key: string]: string | number | object;
+}
+
 export async function GET(
   request: NextRequest,
-  { params }: { params: { path: string[] } }
+  { params }: { params: { path: string[] } },
 ) {
-  const fullPath = params.path.join('/')
-  const searchParams = request.nextUrl.searchParams
+  const { path } = params
+  const fullPath = path.join('/')
+  const { searchParams } = request.nextUrl
 
   // Parse the path: e.g., "en_pokemons" or "en_pokemons/1"
   const pathParts = fullPath.split('/')
@@ -16,11 +22,11 @@ export async function GET(
   // Extract locale and resource type from endpoint
   // e.g., "en_pokemons" -> locale: "en", resource: "pokemons"
   const match = endpoint.match(/^(en|ja|zh)_(pokemons|types|egg_groups)$/)
-  
+
   if (!match) {
     return NextResponse.json(
       { error: 'Invalid endpoint' },
-      { status: 404 }
+      { status: 404 },
     )
   }
 
@@ -28,27 +34,27 @@ export async function GET(
   const dataKey = `${locale}_${resource}` as keyof typeof db
 
   // Get the data
-  let data = db[dataKey]
+  const data = db[dataKey]
 
   if (!data) {
     return NextResponse.json(
       { error: 'Data not found' },
-      { status: 404 }
+      { status: 404 },
     )
   }
 
   // If ID is provided (e.g., /en_pokemons/1)
   if (id && resource === 'pokemons') {
     const pokemonId = parseInt(id, 10)
-    const pokemon = data.find((p: any) => p.id === pokemonId)
-    
+    const pokemon = data.find((p: Pokemon) => p.id === pokemonId)
+
     if (!pokemon) {
       return NextResponse.json(
         { error: 'Pokemon not found' },
-        { status: 404 }
+        { status: 404 },
       )
     }
-    
+
     return NextResponse.json(pokemon)
   }
 
@@ -61,10 +67,10 @@ export async function GET(
     const order = searchParams.get('_order') || 'asc'
 
     // Sort data
-    const sortedData = [...data].sort((a: any, b: any) => {
+    const sortedData = [...data].sort((a: Pokemon, b: Pokemon) => {
       const aVal = a[sort]
       const bVal = b[sort]
-      
+
       if (order === 'asc') {
         return aVal > bVal ? 1 : -1
       }
@@ -87,4 +93,3 @@ export async function GET(
   // For types and egg_groups, return all data
   return NextResponse.json(data)
 }
-
